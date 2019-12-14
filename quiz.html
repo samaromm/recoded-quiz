@@ -2,6 +2,13 @@
 <html>
     <head>
         <title>Samar</title>
+            <style>
+            table,th,td{
+                border:2px solid black;
+                font-size: 20px;
+                border-collapse: collapse;
+            }
+         </style>
     </head>
 
     <body>
@@ -45,9 +52,9 @@
         <aside>
             <h3>Top posts</h3>
             <nav>
-                <a href="#" type="_blank">post 1</a>
-                <a href="#" type="_blank">post 2</a>
-                <a href="#" type="_blank">post 3</a>
+                <a href="#" target="_blank">post 1</a>
+                <a href="#" target="_blank">post 2</a>
+                <a href="#" target="_blank">post 3</a>
             </nav>
         </aside>
 
@@ -70,5 +77,78 @@
                 <p> How to decorate your website? <a href="#">learn more</a></p>
             </article>
         </section>
+
+        <section id="test">
+            <h2>
+                Testimonies
+            </h2>
+
+            <article>
+                <figure>
+                        <img height="322" size="322" src="https://icon2.cleanpng.com/20180614/pki/kisspng-computer-icons-laborer-factory-clip-art-factory-worker-5b2244317dcd49.6218995215289723375153.jpg">
+                        <figcaption>John Doe<br>Never worked with a professional before<br>but now I can proudly say I have</figcaption>
+                </figure>
+                
+                <figure>
+                        <img height="322" size="322" src="https://data.ac-illust.com/data/thumbnails/59/59ab1a1d1f2c0ebde93ec1634e28a102_t.jpeg">
+                        <figcaption>Jane Doe<br>Never worked with a professional before<br>but now I can proudly say I have</figcaption>
+                </figure>
+                
+                <figure>
+                        <img height="322" size="322" src="https://media.istockphoto.com/vectors/man-avatar-with-smiling-faces-male-cartoon-character-businessman-vector-id991243700">
+                        <figcaption>Richard roe<br>Never worked with a professional before<br>but now I can proudly say I have</figcaption>
+                </figure>
+
+            </article>
+        </section>
+
+        <section id="team">
+            <h2>Meet our team</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Job</th>
+                </tr>
+                <tr>
+                        <td>Samar</td>
+                        <td>CEO</td>
+                    </tr>
+                    <tr>
+                            <td>Loubana</td>
+                            <td>Designer</td>
+                        </tr>
+                        <tr>
+                                <td>Rasha</td>
+                                <td>Engineer</td>
+                            </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact us</h2>
+            <form>
+                <label>Name:</label>
+                <input type="text" name="theName" placeholder="write your name">
+                <label>Email:</label>
+                <input type="email"name="mail" placeholder="write your email"> <br>
+                <label>Message:</label><br>
+                <input type="text" name="message" style="width:600px; height:200px;">
+                <br>
+                <label for="option1"> 
+                     <input id="option1" type="radio" value="job" name="job-server">You're looking for a job
+                      </label>
+                     <label for"option2">
+                        <input id="option2" type="radio" value="service" name="job-server">You're looking for a service
+                </label>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <div>
+            <h2>Social media accounts:</h2>
+            <a href="twitter.com" target="_blank">Twitter</a>
+            <a href="facebook.com" target="_blank">Facebook</a>
+            <a href="instagram.com" target="_blank">Instagram</a>
+        </div>
     </body>
 </html>
